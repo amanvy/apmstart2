@@ -24,6 +24,7 @@ export class ProductListComponent implements OnInit{
     
     listFilter1: string ;  
     sub : Subscription 
+    title2 : "change";
 
 
     public get listFilter(): string {
